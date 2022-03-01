@@ -1,0 +1,460 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A paraphrase upon the Lords prayer, and the Creed</title>
+            <author>Brathwaite, Richard, 1588?-1673.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1641</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 12 KB of XML-encoded text transcribed from 1 1-bit group-IV TIFF page image.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B08552</idno>
+            <idno type="STC">Wing B4274</idno>
+            <idno type="STC">ESTC R223967</idno>
+            <idno type="EEBO-CITATION">64550988</idno>
+            <idno type="OCLC">ocm 64550988</idno>
+            <idno type="VID">184385</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B08552)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 184385)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2862:14)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A paraphrase upon the Lords prayer, and the Creed</title>
+                  <author>Brathwaite, Richard, 1588?-1673.</author>
+               </titleStmt>
+               <extent>1 sheet ([1] p.).   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>Printed in the yeare 1641.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Signed: R. B.</note>
+                  <note>Attributed to Richard Brathwaite. Cf. Wing (2nd ed.).</note>
+                  <note>Reproduction of original in: Harvard University. Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Apostles' Creed --  Paraphrases --  Early works to 1800.</term>
+               <term>Lord's Prayer --  Paraphrases --  Early works to 1800.</term>
+               <term>Prayers --  Early works to 1800.</term>
+               <term>Broadsides --  England --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-03</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2013-03</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="poem">
+            <pb facs="tcp:184385:1"/>
+            <head>
+               <g ref="char:leaf">❧</g> A Paraphraſe upon the Lords Prayer, and the Creed.</head>
+            <lg>
+               <l>IF any be diſtreſt, and faine would gather</l>
+               <l>Some comfort, let him haſten to
+<seg rend="italic">
+                     <hi>OVr Father,</hi>
+                  </seg>
+               </l>
+               <l>For we of helpe and hope are all bereaven,</l>
+               <l>Unleſſe thou ſuccour us,</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—which art in Heaven,</seg>
+               </l>
+               <l>Thou ſheweſt mercy there, and for the ſame</l>
+               <l>We praiſe thee, ſinging
+<seg rend="italic">—hallowed be thy Name:</seg>
+               </l>
+               <l>Of our diſtreſſes, Lord, caſt up the ſumme,</l>
+               <l>Shew us thy joyes, and let</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—thy kingdome come:</seg>
+               </l>
+               <l>We mortall are, and alter from our birth,</l>
+               <l>Thou conſtant art;
+<seg rend="italic">—thy will be done on earth,</seg>
+               </l>
+               <l>Thou mad'ſt the Earth, Skies, Stars, and Planets ſeven,</l>
+               <l>Thy Name be bleſſed here,</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—as tis in heaven:</seg>
+               </l>
+               <l>Nothing we have wherewith our debts to pay,</l>
+               <l>Unleſſe thou give to us,
+<seg rend="italic">—give us this day</seg>
+               </l>
+               <l>Wherewith to cloath us, wherewith to be fed,</l>
+               <l>For without thee we want</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—our daily bread:</seg>
+               </l>
+               <l>We want, but want no ſinne, for no day paſſes</l>
+               <l>But we doe ſin:
+<seg rend="italic">—forgive us our treſpaſſes,</seg>
+               </l>
+               <l>No man from ſinne that ever free did live;</l>
+               <l>Forgive us, Lord, our ſinnes,</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—as we forgive</seg>
+               </l>
+               <l>If we repent our ſinnes thou ne're diſdain'ſt us;</l>
+               <l>We pardon
+<seg rend="italic">—them their treſpaſſes againſt us:</seg>
+               </l>
+               <l>Forgive us that is paſt, and new path tread us;</l>
+               <l>Direct us alwayes in thy truth,</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—and lead us</seg>
+               </l>
+               <l>As thine owne people, and thy choſen Nation,</l>
+               <l>Into all truth, but
+<seg rend="italic">—not into temptation:</seg>
+               </l>
+               <l>Thou that of all good graces art the giver,</l>
+               <l>Permit us not to wander,</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—but deliver</seg>
+               </l>
+               <l>Us from th'aſſaults of World, of Fleſh, of Devill,</l>
+               <l>So ſhall thy mercies free
+<seg rend="italic">—us from all evill.</seg>
+               </l>
+               <l>To theſe Petitions let both Church and Lay-men</l>
+               <l>With one conſent of voyce and heart, ſay</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—Amen.</seg>
+               </l>
+               <l>SInce it be fit that I account ſhould give,</l>
+               <l>What way unto Salvation
+<seg rend="italic">I Beleeve</seg>
+               </l>
+               <l>Of my profeſſion here the ſum I gather,</l>
+               <l>Firſt I confeſſe a faith</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—in God the Father</seg>
+               </l>
+               <l>In God who without helper or partaker,</l>
+               <l>Was of himſelfe the Worlds
+<seg rend="italic">—Almighty maker</seg>
+               </l>
+               <l>And firſt gave time his being, who gave breath,</l>
+               <l>To all the creatures</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—both of heaven and earth:</seg>
+               </l>
+               <l>Our everlaſting welfare doth conſiſt,</l>
+               <l>In his great mercies,
+<seg rend="italic">—and in Ieſus Chriſt</seg>
+               </l>
+               <l>The ſecond perſon of that three in one,</l>
+               <l>The Fathers elect, and</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—his onely Sonne,</seg>
+               </l>
+               <l>That ever bleſſed and incarnate Word,</l>
+               <l>Which our Redeemer is, our life,
+<seg rend="italic">—our Lord,</seg>
+               </l>
+               <l>For why? by Satans guile we were deceiv'd,</l>
+               <l>Chriſt was that meanes of helpe,</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—which was conceived</seg>
+               </l>
+               <l>Yea when we were in danger to be loſt,</l>
+               <l>Conceived for us
+<seg rend="italic">—by the Holy Ghoſt,</seg>
+               </l>
+               <l>And that we might not ever be forlorne,</l>
+               <l>For our eternall ſafety he was</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—borne</seg>
+               </l>
+               <l>Borne as a man, that man might not miſcarry,</l>
+               <l>Even of the ſubſtance
+<seg rend="italic">—of the Virgin Mary,</seg>
+               </l>
+               <l>And loe a greater mercy and a wonder,</l>
+               <l>He that can make all ſuffer</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—ſuffered under</seg>
+               </l>
+               <l>The Jewiſh ſpite, which all the world revil'd at,</l>
+               <l>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Romiſh tyrannies of
+<seg rend="italic">—Pontius Pilate,</seg>
+               </l>
+               <l>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> him I doe beleeve who was envied,</l>
+               <l>Who with extreameſt hate</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—was crucified,</seg>
+               </l>
+               <l>Who being life it ſelfe, to make aſſured</l>
+               <l>Our ſoules of ſafety, was both
+<seg rend="italic">—dead and buried,</seg>
+               </l>
+               <l>And that no ſervile feare in us might dwell,</l>
+               <l>To conquer</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—he deſcended into hell,</seg>
+               </l>
+               <l>Where no infernall power had power to lay</l>
+               <l>Command upon him, but on
+<seg rend="italic">—the third day</seg>
+               </l>
+               <l>The force of death and hell he did conſtraine,</l>
+               <l>And ſo in Triumph</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—he aroſe againe</seg>
+               </l>
+               <l>Yea the Almighty power advanc't his head,</l>
+               <l>As well above all things as
+<seg rend="italic">—from the dead,</seg>
+               </l>
+               <l>Then that from thence gifts might to men be given,</l>
+               <l>With glory</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—he aſcended into heaven,</seg>
+               </l>
+               <l>Where that ſupreame and everlaſting Throne,</l>
+               <l>Which was prepar'd, he climb'd
+<seg rend="italic">—and ſitteth on,</seg>
+               </l>
+               <l>That bleſſed ſeat where he ſhall make abode,</l>
+               <l>To pleade for us at</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—the right hand of God,</seg>
+               </l>
+               <l>And no where ſhould he be enthroned rather,</l>
+               <l>Then there, for he is God as is
+<seg rend="italic">—the Father,</seg>
+               </l>
+               <l>And therefore with an equall love delight I,</l>
+               <l>To praiſe and ſerve them both as one</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—Almighty:</seg>
+               </l>
+               <l>Yet in their office there's a difference,</l>
+               <l>And I beleeve that Jeſus Chriſt
+<seg rend="italic">—from thence</seg>
+               </l>
+               <l>Shall in that great and univerſall doome,</l>
+               <l>Returne, and that with Angels</l>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="italic">—he ſhall come</seg>
+               </l>
+               <l>To queſtion ſuch as at his Empire grudge,</l>
+               <l>Even thoſe that have preſumed him
+<seg rend="italic">—to judge</seg>
+               </l>
+               <l>And that black day ſhall be ſo Catholique,</l>
+               <l>As I beleeve not only that
+<seg rend="italic">—the quicke</seg>
+               </l>
+            </lg>
+            <lg>
+               <l>Shall to that grand Aſſize be ſummoned,</l>
+               <l>But he will both adjudge them
+<seg rend="italic">—<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>d the dead:</seg>
+               </l>
+               <l>Moreover in the Godhead I conceive,</l>
+               <l>Another Perſon in whom
+<seg rend="italic">—I doe beleeve</seg>
+               </l>
+            </lg>
+            <lg>
+               <l>For all my hope and bleſſednſſe were loſt,</l>
+               <l>If I beeleeve not
+<seg rend="italic">—in the Holy Ghoſt,</seg>
+               </l>
+               <l>Although vaine Schiſmaticks through pride and folly</l>
+               <l>Contemne her power, I doe beleeve
+<seg rend="italic">—the holy</seg>
+               </l>
+            </lg>
+            <lg>
+               <l>Chaſte Spouſe of Chriſt, for whom ſo many ſearch,</l>
+               <l>By marks uncertaine, the true
+<seg rend="italic">—Catholick Church,</seg>
+               </l>
+               <l>I doe beleeve, God keepe us in this Union,</l>
+               <l>That there ſhall be for ever
+<seg rend="italic">—the Communion</seg>
+               </l>
+            </lg>
+            <lg>
+               <l>Of Gods elect, and that he ſtill acquaints</l>
+               <l>His children in the fellowſhip
+<seg rend="italic">—of Saints,</seg>
+               </l>
+               <l>Though damned be mens naturall condition,</l>
+               <l>By grace in Chriſt I looke for
+<seg rend="italic">—the remiſsion</seg>
+               </l>
+            </lg>
+            <lg>
+               <l>Of all my foule miſdeeds, for there begins</l>
+               <l>Deaths end, which is the puniſhment
+<seg rend="italic">—of ſinnes,</seg>
+               </l>
+               <l>Moreover I the Sadducees infection</l>
+               <l>Abhor, and doe beleeve
+<seg rend="italic">—the reſurrection</seg>
+               </l>
+            </lg>
+            <lg>
+               <l>Yea though I turne to duſt, yet through God I,</l>
+               <l>Expect a glorious riſing
+<seg rend="italic">—of the body,</seg>
+               </l>
+               <l>And that exempted from the cares here rife,</l>
+               <l>I ſhall enjoy perfection,
+<seg rend="italic">—and the life</seg>
+               </l>
+            </lg>
+            <lg>
+               <l>That is not ſubject unto change or waſting,</l>
+               <l>But ever bleſſed, and for
+<seg rend="italic">—everlaſting.</seg>
+               </l>
+               <l>This is my joy, which that it faile not when</l>
+               <l>It moſt ſhould ſpeed me, let God ſay
+<seg rend="italic">—Amen.</seg>
+               </l>
+            </lg>
+            <q>
+               <l>
+                  <hi>To whom, that he ſo much vouchſafe me may,</hi>
+               </l>
+               <l>
+                  <hi>Thus as a member of the Church I pray.</hi>
+               </l>
+            </q>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>R. B.</p>
+            <p>
+               <hi>LONDON,</hi> Printed in the yeare, 1641.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
